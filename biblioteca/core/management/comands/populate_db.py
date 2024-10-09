@@ -17,7 +17,7 @@ class Command(BaseCommand):
         autor_emily_bronte = Autor.objects.create(nome="Emily Brontë")
         autor_george_rr_martin = Autor.objects.create(nome="George R.R. Martin")
         autor_isaac_asimov = Autor.objects.create(nome="Isaac Asimov")
-        autor_jrr_tolkien = Autor.objects.create(nome="J.R.R. Tolkien")
+        autor_jrr_tolkien = Autor.objects.create(nome="J.R.R. Tolkien").
 
     
         Livro.objects.create(
